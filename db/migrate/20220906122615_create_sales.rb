@@ -4,6 +4,7 @@ class CreateSales < ActiveRecord::Migration[7.0]
       t.string :sale
       t.string :sale2
 
+      
       t.timestamps
     end
   end
