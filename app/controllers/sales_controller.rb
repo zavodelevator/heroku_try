@@ -13,6 +13,7 @@ class SalesController < ApplicationController
   # GET /sales/new
   def new
     @sale = Sale.new
+    render "new"
   end
 
   # GET /sales/1/edit
